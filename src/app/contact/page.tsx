@@ -1,11 +1,11 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { siteConfig } from '@/lib/seo';
 import { getTourBySlug } from '@/data/tours';
 
-export default function ContactPage() {
+function ContactForm() {
   const searchParams = useSearchParams();
   const tourSlug = searchParams.get('tour');
   const [selectedTour, setSelectedTour] = useState('');
@@ -306,5 +306,29 @@ export default function ContactPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+// Loading component for Suspense fallback
+function ContactPageLoading() {
+  return (
+    <div className="pt-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="text-center">
+          <div className="animate-pulse">
+            <div className="h-8 bg-gray-300 rounded w-64 mx-auto mb-4"></div>
+            <div className="h-4 bg-gray-300 rounded w-96 mx-auto"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function ContactPage() {
+  return (
+    <Suspense fallback={<ContactPageLoading />}>
+      <ContactForm />
+    </Suspense>
   );
 }
