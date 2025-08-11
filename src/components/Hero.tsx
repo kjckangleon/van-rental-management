@@ -17,7 +17,7 @@ export default function Hero({
   description,
   ctaText = "Book Your Tour",
   ctaLink = "/contact",
-  backgroundImage = "/images/hero-cebu.svg",
+  backgroundImage = "/images/hero-cebu.jpg",
   showBookingCTA = true
 }: HeroProps) {
   return (

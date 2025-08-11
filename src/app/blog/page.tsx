@@ -96,7 +96,7 @@ export default function BlogPage() {
         </div>
       </section>
 
-      <div className="py-16">
+      <div className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           {/* Category Filter */}
           <div className="flex flex-wrap gap-2 mb-12 justify-center">
@@ -213,11 +213,11 @@ export default function BlogPage() {
           </div>
 
           {/* Newsletter Signup */}
-          <div className="mt-16 bg-gradient-to-r from-primary-600 to-primary-800 rounded-xl p-8 lg:p-12 text-center text-white">
-            <h2 className="text-2xl lg:text-3xl font-bold mb-4">
+          <div className="mt-16 bg-primary-600 rounded-xl p-8 lg:p-12 text-center text-white border border-primary-500 shadow-xl">
+            <h2 className="text-2xl lg:text-3xl font-bold mb-4 text-black">
               Stay Updated with Cebu Travel Tips
             </h2>
-            <p className="text-primary-100 mb-8 max-w-2xl mx-auto">
+            <p className="text-black/90 mb-8 max-w-2xl mx-auto">
               Subscribe to our newsletter and get the latest travel guides, insider tips, 
               and exclusive offers delivered to your inbox.
             </p>
@@ -227,11 +227,11 @@ export default function BlogPage() {
                 placeholder="Enter your email"
                 className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-secondary-400"
               />
-              <button className="bg-secondary-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-secondary-600 transition-colors">
+              <button className="bg-secondary-500 text-black px-6 py-3 rounded-lg font-semibold hover:bg-secondary-600 transition-colors">
                 Subscribe
               </button>
             </div>
-            <p className="text-primary-200 text-sm mt-4">
+            <p className="text-black/70 text-sm mt-4">
               No spam, unsubscribe anytime. We respect your privacy.
             </p>
           </div>
