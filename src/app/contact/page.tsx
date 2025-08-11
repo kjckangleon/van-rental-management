@@ -272,7 +272,7 @@ export default function ContactPage() {
                     <span className="font-medium text-gray-900">8:00 AM - 6:00 PM</span>
                   </div>
                   <p className="text-gray-500 text-xs mt-4">
-                    We're available 24/7 for emergency assistance during your tour.
+                    We&apos;re available 24/7 for emergency assistance during your tour.
                   </p>
                 </div>
               </div>

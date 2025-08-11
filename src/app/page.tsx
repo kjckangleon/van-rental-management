@@ -4,7 +4,6 @@ import TourGrid from '@/components/TourGrid';
 import { getFeaturedTours } from '@/data/tours';
 import { generatePageMetadata } from '@/lib/seo';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Premium Van Tours & Rentals in Cebu",
@@ -40,7 +39,7 @@ export default function Home() {
               Why Choose Cebu Van Tours?
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              We're committed to providing you with safe, comfortable, and memorable experiences throughout Cebu.
+              We&apos;re committed to providing you with safe, comfortable, and memorable experiences throughout Cebu.
             </p>
           </div>
 

@@ -60,7 +60,7 @@ export const siteConfig = {
   
   // Google Maps Place ID (optional - for reviews)
   googleMapsPlaceId: "ChIJXXXXXXXXXXXXXXXXXXXX", // Replace with your Google My Business Place ID
-} as const;
+};
 
 // Helper function to generate page metadata
 export function generatePageMetadata({

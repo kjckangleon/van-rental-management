@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
-import { generatePageMetadata, siteConfig } from '@/lib/seo';
+import { generatePageMetadata } from '@/lib/seo';
+import Link from 'next/link';
 
 export const metadata: Metadata = generatePageMetadata({
   title: "About Us - Your Trusted Cebu Travel Partner",
@@ -20,7 +21,7 @@ export default function AboutPage() {
             </h1>
             <p className="text-xl text-primary-100">
               Your trusted travel partner for exploring the beautiful islands of Cebu, Philippines. 
-              We've been creating unforgettable memories for travelers since 2010.
+              We&apos;ve been creating unforgettable memories for travelers since 2010.
             </p>
           </div>
         </div>
@@ -40,7 +41,7 @@ export default function AboutPage() {
                   to show travelers the real beauty of Cebu through comfortable, safe, and authentic experiences.
                 </p>
                 <p>
-                  What began as a small family business with just two vans has grown into one of Cebu's most 
+                  What began as a small family business with just two vans has grown into one of Cebu&apos;s most 
                   trusted tour operators, serving thousands of satisfied customers from around the world.
                 </p>
                 <p>
@@ -71,7 +72,7 @@ export default function AboutPage() {
               Our Mission & Values
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              We're committed to providing exceptional travel experiences while promoting 
+                              We&apos;re committed to providing exceptional travel experiences while promoting 
               sustainable tourism in Cebu.
             </p>
           </div>
@@ -114,8 +115,8 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Sustainable Tourism</h3>
               <p className="text-gray-600">
-                We're committed to responsible tourism that benefits local communities while preserving 
-                Cebu's natural beauty for future generations.
+                We&apos;re committed to responsible tourism that benefits local communities while preserving 
+                Cebu&apos;s natural beauty for future generations.
               </p>
             </div>
           </div>
@@ -143,8 +144,8 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-2">Juan dela Cruz</h3>
               <p className="text-primary-600 font-medium mb-3">Founder & CEO</p>
               <p className="text-gray-600 text-sm">
-                A Cebu native with over 15 years in the tourism industry. Juan's passion for 
-                sharing Cebu's beauty started this company.
+                A Cebu native with over 15 years in the tourism industry. Juan&apos;s passion for 
+                sharing Cebu&apos;s beauty started this company.
               </p>
             </div>
 
@@ -157,7 +158,7 @@ export default function AboutPage() {
               <p className="text-primary-600 font-medium mb-3">Operations Manager</p>
               <p className="text-gray-600 text-sm">
                 Maria ensures every tour runs smoothly. With her attention to detail, 
-                you're guaranteed an exceptional experience.
+                you&apos;re guaranteed an exceptional experience.
               </p>
             </div>
 
@@ -285,7 +286,7 @@ export default function AboutPage() {
               </svg>
               Book Your Tour Today
             </a>
-            <a
+            <Link
               href="/tours"
               className="bg-primary-700 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-800 transition-colors inline-flex items-center"
             >
@@ -293,7 +294,7 @@ export default function AboutPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
               </svg>
               View Our Tours
-            </a>
+            </Link>
           </div>
         </div>
       </section>

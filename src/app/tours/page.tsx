@@ -40,7 +40,7 @@ export default function ToursPage() {
             Need a Custom Tour?
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Don't see exactly what you're looking for? We can create a personalized itinerary 
+            Don&apos;t see exactly what you&apos;re looking for? We can create a personalized itinerary 
             tailored to your interests, schedule, and budget.
           </p>
           <a
