@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1a1a1a;
 }
 
 @theme inline {
@@ -12,17 +12,27 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Force light mode for consistent branding */
+body {
+  background: #ffffff !important;
+  color: #1a1a1a !important;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+/* Override any system dark mode preferences */
+* {
+  color-scheme: light !important;
+}
+
+/* Ensure CTA sections are always visible */
+.cta-section {
+  background-color: #0284c7 !important;
+  color: #ffffff !important;
+}
+
+.cta-section h2,
+.cta-section p {
+  color: #ffffff !important;
 }
 
 /* Custom scrollbar */
@@ -70,14 +80,53 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Focus styles for better accessibility */
+/* Enhanced focus styles for better accessibility */
 button:focus,
 a:focus,
 input:focus,
 textarea:focus,
 select:focus {
-  outline: 2px solid #0ea5e9;
+  outline: 3px solid #0ea5e9;
   outline-offset: 2px;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+}
+
+/* Enhanced button and interactive element styles */
+.btn-primary {
+  background-color: #0284c7;
+  color: white;
+  border: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0369a1;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.4);
+}
+
+.btn-secondary {
+  background-color: #f59e0b;
+  color: white;
+  border: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-secondary:hover {
+  background-color: #d97706;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+}
+
+/* Enhanced text contrast for better readability */
+.text-enhanced {
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+.text-muted-enhanced {
+  color: #4a5568;
+  font-weight: 400;
 }
 
 /* Print styles */

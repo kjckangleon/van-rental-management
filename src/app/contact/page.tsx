@@ -52,12 +52,12 @@ function ContactForm() {
   return (
     <div className="pt-8">
       {/* Header */}
-      <section className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
+      <section className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16 cta-section" style={{backgroundColor: '#0284c7'}}>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#ffffff'}}>
             Contact Us
           </h1>
-          <p className="text-xl text-primary-100 max-w-2xl mx-auto">
+          <p className="text-xl max-w-2xl mx-auto" style={{color: '#ffffff', opacity: '0.9'}}>
             Ready to explore Cebu? Get in touch with us to book your tour or ask any questions.
           </p>
         </div>
@@ -193,7 +193,8 @@ function ContactForm() {
 
                 <button
                   type="submit"
-                  className="w-full bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors"
+                  className="w-full px-6 py-3 rounded-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
+                  style={{backgroundColor: '#f59e0b', color: '#ffffff'}}
                 >
                   Send Message
                 </button>

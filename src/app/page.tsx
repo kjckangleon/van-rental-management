@@ -115,18 +115,19 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary-600">
+      <section className="py-16 bg-primary-600 cta-section" style={{backgroundColor: '#0284c7'}}>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{color: '#ffffff'}}>
             Ready to Explore Cebu?
           </h2>
-          <p className="text-lg text-primary-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg mb-8 max-w-2xl mx-auto" style={{color: '#ffffff', opacity: '0.9'}}>
             Book your tour today and discover why thousands of travelers choose us for their Cebu adventures.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/contact"
-              className="bg-secondary-500 text-white px-8 py-4 rounded-lg font-semibold hover:bg-secondary-600 transition-colors inline-flex items-center shadow-lg"
+              className="px-8 py-4 rounded-lg font-semibold transition-colors inline-flex items-center shadow-lg"
+              style={{backgroundColor: '#f59e0b', color: '#ffffff'}}
             >
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -135,7 +136,8 @@ export default function Home() {
             </Link>
             <Link
               href="/tours"
-              className="bg-primary-700 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-800 transition-colors inline-flex items-center"
+              className="px-8 py-4 rounded-lg font-semibold transition-colors inline-flex items-center"
+              style={{backgroundColor: '#ffffff', color: '#0284c7', border: '2px solid #ffffff'}}
             >
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />

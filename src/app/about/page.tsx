@@ -13,14 +13,14 @@ export default function AboutPage() {
   return (
     <div className="pt-8">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-r from-primary-600 to-primary-800 text-white">
+      <section className="relative py-20 bg-gradient-to-r from-primary-600 to-primary-800 text-white cta-section" style={{ backgroundColor: '#0284c7' }}>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#ffffff' }}>
               About Cebu Van Tours
             </h1>
-            <p className="text-xl text-primary-100">
-              Your trusted travel partner for exploring the beautiful islands of Cebu, Philippines. 
+            <p className="text-xl" style={{ color: '#ffffff', opacity: '0.9' }}>
+              Your trusted travel partner for exploring the beautiful islands of Cebu, Philippines.
               We&apos;ve been creating unforgettable memories for travelers since 2010.
             </p>
           </div>
@@ -37,23 +37,23 @@ export default function AboutPage() {
               </h2>
               <div className="prose prose-lg text-gray-600 space-y-4">
                 <p>
-                  Founded in 2010 by local Cebuano entrepreneurs, Cebu Van Tours started with a simple mission: 
+                  Founded in 2010 by local Cebuano entrepreneurs, Cebu Van Tours started with a simple mission:
                   to show travelers the real beauty of Cebu through comfortable, safe, and authentic experiences.
                 </p>
                 <p>
-                  What began as a small family business with just two vans has grown into one of Cebu&apos;s most 
+                  What began as a small family business with just two vans has grown into one of Cebu&apos;s most
                   trusted tour operators, serving thousands of satisfied customers from around the world.
                 </p>
                 <p>
-                  Our deep love for Cebu and commitment to excellent service has earned us countless 5-star 
-                  reviews and repeat customers who consider us not just a tour company, but friends who helped 
+                  Our deep love for Cebu and commitment to excellent service has earned us countless 5-star
+                  reviews and repeat customers who consider us not just a tour company, but friends who helped
                   make their Philippine adventure unforgettable.
                 </p>
               </div>
             </div>
             <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
               <Image
-                                  src="/images/about-our-story.svg"
+                src="/images/about-our-story.svg"
                 alt="Cebu Van Tours team and vehicles"
                 fill
                 className="object-cover"
@@ -72,7 +72,7 @@ export default function AboutPage() {
               Our Mission & Values
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                              We&apos;re committed to providing exceptional travel experiences while promoting 
+              We&apos;re committed to providing exceptional travel experiences while promoting
               sustainable tourism in Cebu.
             </p>
           </div>
@@ -87,7 +87,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Safety First</h3>
               <p className="text-gray-600">
-                Your safety is our top priority. All our vehicles undergo regular maintenance and our drivers 
+                Your safety is our top priority. All our vehicles undergo regular maintenance and our drivers
                 are professionally trained and licensed.
               </p>
             </div>
@@ -101,7 +101,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Authentic Experiences</h3>
               <p className="text-gray-600">
-                We believe in showing you the real Cebu - from hidden gems known only to locals to 
+                We believe in showing you the real Cebu - from hidden gems known only to locals to
                 cultural experiences that connect you with our heritage.
               </p>
             </div>
@@ -115,7 +115,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Sustainable Tourism</h3>
               <p className="text-gray-600">
-                We&apos;re committed to responsible tourism that benefits local communities while preserving 
+                We&apos;re committed to responsible tourism that benefits local communities while preserving
                 Cebu&apos;s natural beauty for future generations.
               </p>
             </div>
@@ -144,7 +144,7 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-2">Juan dela Cruz</h3>
               <p className="text-primary-600 font-medium mb-3">Founder & CEO</p>
               <p className="text-gray-600 text-sm">
-                A Cebu native with over 15 years in the tourism industry. Juan&apos;s passion for 
+                A Cebu native with over 15 years in the tourism industry. Juan&apos;s passion for
                 sharing Cebu&apos;s beauty started this company.
               </p>
             </div>
@@ -157,7 +157,7 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-2">Maria Santos</h3>
               <p className="text-primary-600 font-medium mb-3">Operations Manager</p>
               <p className="text-gray-600 text-sm">
-                Maria ensures every tour runs smoothly. With her attention to detail, 
+                Maria ensures every tour runs smoothly. With her attention to detail,
                 you&apos;re guaranteed an exceptional experience.
               </p>
             </div>
@@ -170,7 +170,7 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-2">Carlos Reyes</h3>
               <p className="text-primary-600 font-medium mb-3">Lead Driver & Guide</p>
               <p className="text-gray-600 text-sm">
-                Carlos knows every corner of Cebu. His stories and local insights make 
+                Carlos knows every corner of Cebu. His stories and local insights make
                 every tour educational and entertaining.
               </p>
             </div>
@@ -268,18 +268,19 @@ export default function AboutPage() {
       </section>
 
       {/* Contact CTA */}
-      <section className="py-16 bg-primary-600">
+      <section className="py-16 bg-primary-600 cta-section" style={{ backgroundColor: '#0284c7' }}>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#ffffff' }}>
             Ready to Explore Cebu With Us?
           </h2>
-          <p className="text-lg text-primary-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg mb-8 max-w-2xl mx-auto" style={{ color: '#ffffff', opacity: '0.9' }}>
             Join the thousands of satisfied travelers who have discovered the beauty of Cebu with our expert guidance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
               href="/contact"
-              className="bg-secondary-500 text-white px-8 py-4 rounded-lg font-semibold hover:bg-secondary-600 transition-colors inline-flex items-center shadow-lg"
+              className="px-8 py-4 rounded-lg font-semibold transition-colors inline-flex items-center shadow-lg"
+              style={{ backgroundColor: '#f59e0b', color: '#ffffff' }}
             >
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -288,7 +289,8 @@ export default function AboutPage() {
             </a>
             <Link
               href="/tours"
-              className="bg-primary-700 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-800 transition-colors inline-flex items-center"
+              className="px-8 py-4 rounded-lg font-semibold transition-colors inline-flex items-center"
+              style={{ backgroundColor: '#ffffff', color: '#0284c7', border: '2px solid #ffffff' }}
             >
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />

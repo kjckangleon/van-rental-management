@@ -86,9 +86,9 @@ export default function TourGrid({
 
                 {/* Price Badge */}
                 <div className="absolute top-4 right-4">
-                  <div className="bg-white/90 backdrop-blur-sm rounded-lg px-3 py-2">
-                    <div className="text-sm text-gray-600">Starting from</div>
-                    <div className="font-bold text-primary-600">
+                  <div className="rounded-lg px-3 py-2 shadow-lg" style={{backgroundColor: '#ffffff', opacity: '0.95'}}>
+                    <div className="text-sm" style={{color: '#6b7280'}}>Starting from</div>
+                    <div className="font-bold" style={{color: '#0284c7'}}>
                       ₱{tour.price.van.toLocaleString()}
                     </div>
                   </div>

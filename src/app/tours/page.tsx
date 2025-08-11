@@ -13,12 +13,12 @@ export default function ToursPage() {
   return (
     <div className="pt-8">
       {/* Page Header */}
-      <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
+      <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16 cta-section" style={{backgroundColor: '#0284c7'}}>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#ffffff'}}>
             Cebu Tours & Packages
           </h1>
-          <p className="text-lg md:text-xl text-primary-100 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl max-w-2xl mx-auto" style={{color: '#ffffff', opacity: '0.9'}}>
             Discover the beauty and culture of Cebu with our carefully crafted tour packages. 
             From historical city tours to exciting adventures, we have something for everyone.
           </p>
@@ -45,7 +45,8 @@ export default function ToursPage() {
           </p>
           <a
             href="/contact"
-            className="inline-flex items-center px-8 py-4 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors"
+            className="inline-flex items-center px-8 py-4 rounded-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
+            style={{backgroundColor: '#f59e0b', color: '#ffffff'}}
           >
             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />

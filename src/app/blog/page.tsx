@@ -85,12 +85,12 @@ export default function BlogPage() {
   return (
     <div className="pt-8">
       {/* Header */}
-      <section className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
+      <section className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16 cta-section" style={{backgroundColor: '#0284c7'}}>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#ffffff'}}>
             Travel Blog
           </h1>
-          <p className="text-xl text-primary-100 max-w-2xl mx-auto">
+          <p className="text-xl max-w-2xl mx-auto" style={{color: '#ffffff', opacity: '0.9'}}>
             Discover insider tips, hidden gems, and travel guides to make your Cebu adventure unforgettable.
           </p>
         </div>
@@ -225,9 +225,13 @@ export default function BlogPage() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-secondary-400"
+                className="flex-1 px-4 py-3 rounded-lg text-gray-900 border-2 border-gray-300 focus:outline-none focus:ring-2 focus:ring-secondary-400 focus:border-secondary-400 bg-white shadow-sm"
+                style={{borderColor: '#d1d5db'}}
               />
-              <button className="bg-secondary-500 text-black px-6 py-3 rounded-lg font-semibold hover:bg-secondary-600 transition-colors">
+              <button 
+                className="px-6 py-3 rounded-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
+                style={{backgroundColor: '#f59e0b', color: '#ffffff'}}
+              >
                 Subscribe
               </button>
             </div>
