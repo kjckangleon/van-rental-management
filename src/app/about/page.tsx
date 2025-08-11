@@ -52,7 +52,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
               <Image
-                src="/images/about-our-story.jpg"
+                                  src="/images/about-our-story.svg"
                 alt="Cebu Van Tours team and vehicles"
                 fill
                 className="object-cover"

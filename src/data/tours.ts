@@ -114,12 +114,12 @@ export const tours: Tour[] = [
       "Accommodation"
     ],
     images: {
-      main: "/images/tours/cebu-heritage-main.jpg",
+      main: "/images/tours/cebu-heritage-main.svg",
       gallery: [
-        "/images/tours/cebu-heritage-1.jpg",
-        "/images/tours/cebu-heritage-2.jpg", 
-        "/images/tours/cebu-heritage-3.jpg",
-        "/images/tours/cebu-heritage-4.jpg"
+        "/images/tours/cebu-heritage-1.svg",
+        "/images/tours/cebu-heritage-2.svg", 
+        "/images/tours/cebu-heritage-3.svg",
+        "/images/tours/cebu-heritage-4.svg"
       ],
       alt: "Cebu City Heritage Tour - Historical landmarks and cultural sites"
     },
@@ -212,12 +212,12 @@ export const tours: Tour[] = [
       "Additional food and drinks"
     ],
     images: {
-      main: "/images/tours/oslob-whale-shark-main.jpg",
+      main: "/images/tours/oslob-whale-shark-main.svg",
       gallery: [
-        "/images/tours/oslob-whale-shark-1.jpg",
-        "/images/tours/oslob-whale-shark-2.jpg",
-        "/images/tours/oslob-whale-shark-3.jpg",
-        "/images/tours/oslob-whale-shark-4.jpg"
+        "/images/tours/oslob-whale-shark-1.svg",
+        "/images/tours/oslob-whale-shark-2.svg",
+        "/images/tours/oslob-whale-shark-3.svg",
+        "/images/tours/oslob-whale-shark-4.svg"
       ],
       alt: "Oslob Whale Shark Adventure - Swimming with whale sharks experience"
     },
@@ -320,12 +320,12 @@ export const tours: Tour[] = [
       "Souvenir shopping"
     ],
     images: {
-      main: "/images/tours/bohol-countryside-main.jpg",
+      main: "/images/tours/bohol-countryside-main.svg",
       gallery: [
-        "/images/tours/bohol-countryside-1.jpg",
-        "/images/tours/bohol-countryside-2.jpg",
-        "/images/tours/bohol-countryside-3.jpg", 
-        "/images/tours/bohol-countryside-4.jpg"
+        "/images/tours/bohol-countryside-1.svg",
+        "/images/tours/bohol-countryside-2.svg",
+        "/images/tours/bohol-countryside-3.svg", 
+        "/images/tours/bohol-countryside-4.svg"
       ],
       alt: "Bohol Countryside Tour - Chocolate Hills and natural attractions"
     },

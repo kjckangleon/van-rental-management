@@ -18,7 +18,7 @@ const blogPosts = [
     author: "Maria Santos",
     date: "December 15, 2024",
     readTime: "5 min read",
-    image: "/images/blog/hidden-gems-cebu.jpg",
+    image: "/images/blog/hidden-gems-cebu.svg",
     category: "Travel Guide",
     slug: "hidden-gems-cebu"
   },
@@ -29,7 +29,7 @@ const blogPosts = [
     author: "Carlos Reyes",
     date: "December 10, 2024",
     readTime: "4 min read",
-    image: "/images/blog/oslob-whale-sharks.jpg",
+    image: "/images/blog/oslob-whale-sharks.svg",
     category: "Wildlife",
     slug: "best-time-oslob-whale-sharks"
   },
@@ -40,7 +40,7 @@ const blogPosts = [
     author: "Juan dela Cruz",
     date: "December 5, 2024",
     readTime: "6 min read",
-    image: "/images/blog/cebu-food-guide.jpg",
+    image: "/images/blog/cebu-food-guide.svg",
     category: "Food & Culture",
     slug: "cebu-food-guide"
   },
@@ -51,7 +51,7 @@ const blogPosts = [
     author: "Maria Santos",
     date: "November 28, 2024",
     readTime: "7 min read",
-    image: "/images/blog/cebu-historical-sites.jpg",
+    image: "/images/blog/cebu-historical-sites.svg",
     category: "History",
     slug: "cebu-historical-sites"
   },
@@ -62,7 +62,7 @@ const blogPosts = [
     author: "Carlos Reyes",
     date: "November 20, 2024",
     readTime: "8 min read",
-    image: "/images/blog/island-hopping-cebu.jpg",
+    image: "/images/blog/island-hopping-cebu.svg",
     category: "Adventure",
     slug: "island-hopping-cebu"
   },
@@ -73,7 +73,7 @@ const blogPosts = [
     author: "Juan dela Cruz",
     date: "November 15, 2024",
     readTime: "5 min read",
-    image: "/images/blog/first-time-cebu-tips.jpg",
+    image: "/images/blog/first-time-cebu-tips.svg",
     category: "Travel Tips",
     slug: "first-time-cebu-tips"
   }
