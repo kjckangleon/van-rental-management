@@ -1,4 +1,4 @@
-# Cebu Van Tours - Next.js Website
+# G&L Van Rental - Next.js Website
 
 A modern, SEO-optimized website for a van rental and tour operator business in Cebu, Philippines. Built with Next.js 15, TypeScript, and Tailwind CSS.
 

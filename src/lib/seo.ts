@@ -1,15 +1,15 @@
-// SEO Configuration for Cebu Van Tours
+// SEO Configuration for G&L Van Rental
 export const siteConfig = {
   // Business Information
-  name: "Cebu Van Tours",
-  tagline: "Explore Cebu with Comfort and Style",
-  description: "Premium van rental and tour services in Cebu, Philippines. Discover the beauty of Cebu with our comfortable vehicles and experienced drivers.",
+  name: "G & L Van Rental",
+  tagline: "Professional Van Tours & Transportation Services",
+  description: "Your trusted partner for van rental and tour services in Cebu. Professional drivers, modern fleet, and comprehensive transportation solutions for tourists, locals, and businesses.",
   url: "https://cebu-van-tours.com", // Update with your actual domain
   
   // Contact Information
-  phone: "+63 123 456 7890", // Update with your actual phone
-  email: "info@cebu-van-tours.com", // Update with your actual email
-  whatsapp: "+63 123 456 7890", // Update with your WhatsApp number
+  phone: "+63 945 289 6012",
+  email: "info@glandlvanrental.com",
+  whatsapp: "+63 945 289 6012",
   
   // Business Address
   address: {
@@ -171,7 +171,7 @@ export function generateTourServiceSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "TouristTrip",
-    name: "Cebu Van Tours & Transportation Services",
+    name: "G & L Van Rental Tours & Transportation Services",
     description: "Professional van rental and guided tour services throughout Cebu, Philippines",
     provider: {
       "@type": "LocalBusiness",

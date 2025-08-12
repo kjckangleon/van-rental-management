@@ -1,6 +1,6 @@
-# Cebu Van Tours - Setup Instructions
+# G&L Van Rental - Setup Instructions
 
-This guide will help you set up and deploy your Cebu Van Tours website.
+This guide will help you set up and deploy your G&L Van Rental website.
 
 ## Prerequisites
 

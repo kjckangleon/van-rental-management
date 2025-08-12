@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#ffffff' }}>
-              About Cebu Van Tours
+              About G&L Van Rental
             </h1>
             <p className="text-xl" style={{ color: '#ffffff', opacity: '0.9' }}>
               Your trusted travel partner for exploring the beautiful islands of Cebu, Philippines.
