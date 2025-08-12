@@ -21,7 +21,8 @@ export default function Home() {
         title="Discover Cebu in Comfort"
         subtitle="Premium Van Tours & Rentals"
         description="Experience the beauty of Cebu with our comfortable, air-conditioned vans and professional drivers. From city tours to adventure trips, we make your journey unforgettable."
-        backgroundImage="/images/hero-cebu.jpg"
+        backgroundImage="/images/hero-cebu.png"
+        mobileBackgroundImage="/images/hero-cebu-mobile.png"
       />
 
       {/* Featured Tours */}

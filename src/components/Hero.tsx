@@ -8,6 +8,7 @@ interface HeroProps {
   ctaText?: string;
   ctaLink?: string;
   backgroundImage?: string;
+  mobileBackgroundImage?: string;
   showBookingCTA?: boolean;
 }
 
@@ -18,17 +19,28 @@ export default function Hero({
   ctaText = "Book Your Tour",
   ctaLink = "/contact",
   backgroundImage = "/images/hero-cebu.jpg",
+  mobileBackgroundImage = "/images/hero-cebu-mobile.png",
   showBookingCTA = true
 }: HeroProps) {
   return (
     <section className="relative min-h-[800px] md:min-h-[600px] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
+        {/* Desktop Background */}
         <Image
           src={backgroundImage}
           alt="Cebu landscape"
           fill
-          className="object-cover"
+          className="object-cover hidden md:block"
+          priority
+          sizes="100vw"
+        />
+        {/* Mobile Background */}
+        <Image
+          src={mobileBackgroundImage}
+          alt="Cebu landscape mobile"
+          fill
+          className="object-cover block md:hidden"
           priority
           sizes="100vw"
         />

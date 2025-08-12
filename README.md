@@ -65,7 +65,7 @@ cebu-van-tours/
 
 3. **Replace placeholder images:**
    - Add your actual tour photos to `/public/images/tours/`
-   - Replace hero image at `/public/images/hero-cebu.jpg`
+   - Replace hero image at `/public/images/hero-cebu.png`
    - Add Open Graph image at `/public/images/og-default.jpg`
 
 4. **Run development server:**

@@ -72,7 +72,7 @@ export const siteConfig = {
 Replace all placeholder images in the `/public/images/` directory with your actual photos:
 
 **Required Images:**
-- `/public/images/hero-cebu.jpg` (1920x1080px) - Hero background
+- `/public/images/hero-cebu.png` (1920x1080px) - Hero background
 - `/public/images/og-default.jpg` (1200x630px) - Social media sharing
 - `/public/images/tours/[tour-name]-main.jpg` (800x600px) - Tour main images
 - `/public/images/tours/[tour-name]-[1-4].jpg` - Tour gallery images

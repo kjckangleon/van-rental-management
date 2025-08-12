@@ -53,7 +53,7 @@ export const siteConfig = {
   ],
   
   // Default Open Graph Image
-  ogImage: "/images/hero-cebu.jpg", // Add your default OG image
+  ogImage: "/images/hero-cebu.png", // Add your default OG image
   
   // Google Analytics ID (optional)
   googleAnalyticsId: "G-XXXXXXXXXX", // Replace with your GA4 ID
